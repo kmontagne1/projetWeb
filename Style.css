@@ -1,10 +1,16 @@
+/** Debut CSS commun **/
+
+
 * {
+    color: black;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+p{
+    text-align: justify;
+}
 
 
 
@@ -12,6 +18,7 @@
 
 nav {
     width: 100%;
+    justify-content: space-between;            /** A suprimer sur les autre pages **/
     background-color: white;
     position: sticky;
     top: 0;
@@ -22,11 +29,11 @@ nav {
 nav ul {
     list-style: none;
     margin: 0% 5% ;
-    display: flex; /* Utilisez flex pour afficher les éléments horizontalement */
+    display: flex;              /* Utilisez flex pour afficher les éléments horizontalement */
 }
 
 nav li {
-    flex: 1; /* Les éléments du menu occupent une part égale de l'espace disponible */
+    flex: 1;                        /* Les éléments du menu occupent une part égale de l'espace disponible */
     text-align: center;
     position: relative;
 }
@@ -96,9 +103,53 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+ /** Fin CSS commun **/
+
 .Presentation_Salarié{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     background-color: bisque;
     border: solid;
 }
+
+
+
+
+
+    /** Block presentation application **/
+
+.Box_1{
+    display: flex;
+    border: 4mm inset  rgba(0, 255, 106, 0.767);
+    background-color: blueviolet;
+}
+.Box_2{
+    display: flex;
+    border: 4mm inset  rgba(229, 255, 0, 0.767);
+    background-color: blue;
+}
+.Box_3{
+    display: flex;
+    border: 4mm inset  rgba(255, 0, 157, 0.767);
+    background-color: green;
+}
+.Container_1{
+    display: flex;
+    border: 4mm inset  rgba(255, 7, 7, 0.767);
+    background-color: rgba(0, 0, 255, 0.671);
+}
+#appli_1{
+    left: 50%;
+}
+#appli_2{
+    right: 50%;
+}
+
+ /** Fin block presentation application **/
+
+ .Title_appli{
+    background-color: brown;
+ }
+
