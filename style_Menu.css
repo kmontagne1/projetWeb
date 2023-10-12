@@ -67,6 +67,7 @@ nav a:hover {
     left: 0;
     width: 100%;
     z-index: 1000;
+    
 }
 
 nav li:hover .sous {
@@ -80,6 +81,8 @@ nav li:hover .sous {
 .sous a {
     padding: 10px;
     border-bottom: none;
+    text-align: center;
+    font-size: 95%;
     display: block;
 }
 
@@ -173,7 +176,7 @@ nav li:hover .sous {
 
 
 
- /* Button */
+ /* Boutton */
 
      /** Button pied de page **/
 .Button_piedDePage {
@@ -281,3 +284,7 @@ footer{
   }
   
     /** Fin FadeIn image **/
+
+    h1 {
+        font-size: 900%;
+    }
