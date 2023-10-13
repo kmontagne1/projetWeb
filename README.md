@@ -12,5 +12,7 @@ Page 2 : Informations sur les applis, développement de celle-ci
 Page 3 (si optionnel, à mettre sur la 2) : Caractéristiques de l’application
 
 Page 4 : Page publicitaires
+
+Page 5 : Contact / Avis
  
 Affiches publicitaires
